@@ -1,0 +1,109 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+  }
+  
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8.5rem;
+  }
+  
+  html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #27ae60;
+    border-radius: 5rem;
+  }
+  
+  section {
+    padding: 2rem 9%;
+  }
+  .heading {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  
+  .heading span {
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    color: #27ae60;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 5rem;
+    padding: .7rem 8rem;
+    font-size: 2.7rem;
+    cursor: pointer;
+    color: #fff;
+    background: #5ec211;
+    border-radius: .8rem;
+  }
+  
+  .btn:hover {
+    background: #27ae60;
+  }
+  .heading h3 {
+    font-size: 3rem;
+    color: #020412;
+  }
+.menu .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .menu .box-container .box {
+    border-radius: .5rem;
+    background: #f7f7f7;
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .menu .box-container .box:hover {
+    background: #12d92a;
+  }
+  
+  .menu .box-container .box:hover .content h3 {
+    color: #fff;
+  }
+  
+  .menu .box-container .box img {
+    height: 10rem;
+  }
+  
+  .menu .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #130f40;
+    padding-bottom: .5rem;
+  }
+  
+  .menu .box-container .box .content .price {
+    font-size: 1.8rem;
+    color: #27ae60;
+  }
